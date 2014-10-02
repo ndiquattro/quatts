@@ -1,9 +1,9 @@
 Package: quatts
-Title: What the package does (one line)
+Title: A collection of functions for Cognitive Psychology research
 Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (one paragraph)
+Authors@R: "Nick DiQuattro <ndiquattro@ucdavis.edu> [aut, cre]"
+Description: Convience functions I have amassed.
 Depends:
     R (>= 3.1.1)
-License: What license is it under?
+License: Be cool to one another
 LazyData: true
