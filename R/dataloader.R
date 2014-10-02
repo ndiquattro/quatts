@@ -6,7 +6,7 @@
 #' @param cnames Character vector of column names to use in produced data.frame
 #' @export
 
-DataLoader <- function(folder, expr, cnames) {
+dataloader <- function(folder, expr, cnames) {
   # Find files
   file.list <- list.files(folder, expr, full.names=TRUE)
 
