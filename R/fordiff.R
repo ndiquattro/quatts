@@ -2,6 +2,7 @@
 #'
 #' Creates a contrast matrix for forward difference coding used in regression
 #' @param k Number of levels in the factor
+#' @export
 
 fordiff <- function(k) {
   cmat = matrix(nrow = k, ncol = k -1)  # Create an empty matrix
