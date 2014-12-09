@@ -2,4 +2,5 @@
 
 export(cohend)
 export(dataloader)
+export(fordiff)
 export(paretasq)
