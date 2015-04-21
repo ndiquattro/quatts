@@ -2,8 +2,11 @@ Package: quatts
 Title: A collection of functions for Cognitive Psychology research
 Version: 0.1
 Authors@R: "Nick DiQuattro <ndiquattro@ucdavis.edu> [aut, cre]"
-Description: Convience functions I have amassed.
+Description: Convenience functions I have amassed.
 Depends:
     R (>= 3.1.1)
 License: Be cool to one another
+Imports:
+    dplyr,
+    readr
 LazyData: true

@@ -11,5 +11,5 @@ create("quatt1")
 # Edit description file for contact info
 
 # Process documentation
-setwd("C://Code/quatts")
+setwd("/Users/nickdiquattro/Documents/Code/quatts")
 document()
