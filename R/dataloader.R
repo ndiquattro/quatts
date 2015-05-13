@@ -12,6 +12,7 @@ dataloader <- function(folder, expr, ...) {
   # Find files
   file.list <- list.files(folder, expr, full.names = TRUE)
 
-  # Apply Reader to file.list
-  dplyr::bind_rows(lapply(file.list, failwith(readr::read_csv), ...))
+  # Apply and bind
+  dplyr::bind_rows(lapply(file.list, dplyr::failwith(NULL, readr::read_csv),
+                          ...))
 }
