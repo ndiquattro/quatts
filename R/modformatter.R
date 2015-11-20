@@ -40,7 +40,7 @@ rformatter <- function(mod) {
   }
 
   # aov object --------------------------------------------------------------
-  if (is(mod)[1] == 'aov') {
+  if (is(mod)[1] == 'aovlist') {
     # Format
     aform <- broom::tidy(mod) %>%
               dplyr::mutate(resdf = df[term == 'Residuals']) %>%
