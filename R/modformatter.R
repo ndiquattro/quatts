@@ -36,7 +36,7 @@ rformatter <- function(mod) {
                                round(statistic, 2),
                                ', _p_ ', plooker(p.value))
               )
-    return(cat(tform$tline, "\n\n"))
+    return(cat(tform$tline, sep = "\n\n"))
   }
 
   # aov object --------------------------------------------------------------
@@ -53,7 +53,7 @@ rformatter <- function(mod) {
               )
 
     # Print
-    return(cat(aform$aline, "\n\n"))
+    return(cat(aform$aline, sep = "\n\n"))
   }
 
   # nlme object -------------------------------------------------------------
@@ -71,7 +71,7 @@ rformatter <- function(mod) {
               )
 
     # Print
-    return(cat(nform$tline, "\n\n"))
+    return(cat(nform$tline, sep = "\n\n"))
   }
 
 }
