@@ -8,5 +8,8 @@ Depends:
 License: Be cool to one another
 Imports:
     dplyr,
-    readr
+    readr,
+    broom,
+    magrittr
 LazyData: true
+RoxygenNote: 5.0.0
